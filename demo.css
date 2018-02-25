@@ -1,0 +1,41 @@
+#demo {
+    width:70vw;
+    height:70vh;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+}
+
+#demobox
+{
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    width:25%;
+    height:100%;
+    display:block;
+    position:absolute;
+    
+}
+
+.dimg  
+{
+    height:200px;
+    width:auto;
+
+}
+
+#d1r, #d2r, #d3r, #d4r {
+    display:inline-block;
+    
+}  
+
+#imgbox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
