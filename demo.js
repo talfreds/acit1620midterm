@@ -74,7 +74,7 @@ document.getElementById('prev').addEventListener('click',
     
     else if (d2.checked){
  
-        img2 = img2 + 1;
+        img2 = img2 - 1;
         if (img2 < 1)
         {
             img2 = 3;
@@ -85,7 +85,7 @@ document.getElementById('prev').addEventListener('click',
     }
     
     else if (d3.checked){
-        img3 = img3 + 1;
+        img3 = img3 - 1;
         if (img3 < 1)
         {
             img3 = 3;
